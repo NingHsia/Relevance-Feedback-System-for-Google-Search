@@ -32,10 +32,10 @@ Run the query reformulation system:
 python3 main.py <google api key> <google engine id> <precision> <query>
 ```
 where:
-- <google api key> is the Google Custom Search JSON API Key
-- <google engine id> is the Google Custom Search Engine ID
-- <precision> is the target value for precision@10, a real number between 0 and 1
-- <query> is the query, a list of words in double quotes (e.g., “wojcicki”)
+- \<google api key\> is the Google Custom Search JSON API Key
+- \<google engine id\> is the Google Custom Search Engine ID
+- \<precision\> is the target value for precision@10, a real number between 0 and 1
+- \<query\> is the query, a list of words in double quotes (e.g., “wojcicki”)
     
 For example,
 ```bash
